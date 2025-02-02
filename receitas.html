@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Receitas - Blog - SaudeFlow">
+    <title>Receitas - Blog - SaudeFlow</title>
+
+    <style>
+        :root {
+            --primary-text: #1A1A1A;
+            --primary-accent: #2563EB;
+            --background: #F9FAFB;
+            --secondary-text: #6B7280;
+            --shadow-color: rgba(0, 0, 0, 0.05);
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--primary-text);
+            background-color: var(--background);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .recipe-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px var(--shadow-color);
+        }
+
+        .recipe-content {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px var(--shadow-color);
+        }
+
+        .adsense-block {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .affiliate-product {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px var(--shadow-color);
+        }
+
+        .affiliate-product img {
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--primary-accent);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            margin-bottom: 2rem;
+        }
+
+        .back-button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .buy-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #22c55e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+
+        .buy-button:hover {
+            background-color: #16a34a;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-text: #E5E7EB;
+                --background: #121212;
+                --secondary-text: #9CA3AF;
+            }
+
+            .recipe-content, .affiliate-product {
+                background: #1F2937;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← Voltar para a página inicial</a>
+
+        <div class="recipe-header">
+            <h1>PRÉ TREINO NATURAL</h1>
+        </div>
+
+        <img src="./src/images/pre-treino-beterraba.jpg" alt="PRÉ TREINO NATURAL" class="recipe-image">
+
+        <div class="recipe-content">
+            <h2>Ingredientes</h2>
+            <ul>
+                <li>50g de Beterraba em pó</li>
+                <li>50g de Gengibre em pó</li>
+                <li>50g de Guaraná em Pó</li>
+                <li>50g de Farinha de Uva</li>
+                <li>16g de Adoçante Natural Stevia ou Xylitol (opcional)</li>
+            </ul>
+
+            <h2>Modo de Preparo</h2>
+            <ol>
+                <li>Misture todos ingredientes em um pote com tampa</li>
+                <li>Utilize uma ou duas colher(es) de sopa ao dia antes do treino</li>
+                <!-- <li>Passo 3</li> -->
+            </ol>
+        </div>
+
+        <div class="adsense-block">
+            <!-- Código do Google AdSense aqui -->
+            <div style="background: #eee; padding: 20px; text-align: center;">
+                Espaço para Anúncio do Google AdSense
+            </div>
+        </div>
+
+        <div class="affiliate-product">
+            <h2>Produto Recomendado</h2>
+            <img src="caminho-para-produto.jpg" alt="Produto Afiliado">
+            <h3>Nome do Produto</h3>
+            <p>Descrição do produto e seus benefícios para a receita.</p>
+            <a href="#" class="buy-button">Comprar Agora</a>
+        </div>
+    </div>
+
+    
+</body>
+</html>
